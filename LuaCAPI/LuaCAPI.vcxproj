@@ -40,7 +40,6 @@
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
-    <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
@@ -130,10 +129,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="_06_RequireCModule2.cpp" />
+    <ClCompile Include="_03_LuaCallCFunc.cpp" />
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Main.lua" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Common.h" />
+    <ClCompile Include="_01_Global.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="_02_CallLuaFunc.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="_04_CClosure.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="_05_RequireCModule.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

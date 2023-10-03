@@ -1,4 +1,9 @@
 # Windows编译Lua源码
+
+## Lua C API
+参考文章  
+[Lua C API 简介](https://blog.iany.me/zh/2017/02/lua-c-api-intro/)  
+
 ## 下载Lua源码
 [Lua](https://www.lua.org/download.html)
 
@@ -30,6 +35,11 @@ cmd验证安装成功 `lua -v` 显示5.4.6
 [参考文章](https://blog.csdn.net/weixin_43603958/article/details/109015563)
 
 将生成的lib文件重命名为Lua.lib,放到源码src目录下
+
+### 控制台项目改成编译静态库项目
+项目属性中设置  
+General -> Configuration Type : Dynamic Library (.dll)  
+默认是Application (.exe)
 
 ## VS2022新项目调用Lua C API
 项目属性配置:  
@@ -68,4 +78,4 @@ int main()
 print("sola akuya")
 ```
 
-运行程序看是否有打印
+运行程序看是否有打印  
