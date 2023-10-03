@@ -18,22 +18,28 @@
     <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="_03_LuaCallCFunc.cpp">
+    <ClCompile Include="Blog1\_01_Global.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="_01_Global.cpp">
+    <ClCompile Include="Blog1\_02_CallLuaFunc.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="_02_CallLuaFunc.cpp">
+    <ClCompile Include="Blog1\_03_LuaCallCFunc.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="_04_CClosure.cpp">
+    <ClCompile Include="Blog1\_04_CClosure.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="_05_RequireCModule.cpp">
+    <ClCompile Include="Blog1\_05_RequireCModule.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="abcd.cpp">
+    <ClCompile Include="Blog1\_06_RequireCModule2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Blog2\_02_Stack1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Blog2\_01_State1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
