@@ -30,7 +30,7 @@ using namespace std;
 #define _09_GetMetaTable 0
 
 // UserData
-#define _01_LightUserData 0
 #define _02_MetaTable 0
 #define _03_MetaTable2 0
-#define _04_MetaTable3 1
+#define _04_MetaTable3 0
+#define _05_LightUserData2 1
