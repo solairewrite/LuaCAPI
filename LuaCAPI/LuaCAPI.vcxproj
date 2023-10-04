@@ -584,6 +584,10 @@
       <LinkCompiled>true</LinkCompiled>
     </ClCompile>
     <ClCompile Include="Blog2\_02_Stack1.cpp" />
+    <ClCompile Include="Blog2\_03_Global1.cpp" />
+    <ClCompile Include="Blog2\_04_Table1.cpp" />
+    <ClCompile Include="Blog2\_05_Func1.cpp" />
+    <ClCompile Include="Blog2\_06_Func2.cpp" />
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
